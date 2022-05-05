@@ -188,7 +188,6 @@ h1 {
   flex-wrap: wrap;
   justify-content: space-between;
   padding-inline: 2rem;
-  cursor: none;
 }
 
 #navbar h4 {
@@ -229,9 +228,9 @@ main {
   font-weight: 400;
 }
 .side_nav_2 {
-  grid-row: 4;
+  grid-row: 3;
   padding-left: 2rem;
-  padding-top: 37rem;
+  padding-top: 34rem;
 }
 .side_nav_3 h3 {
   text-transform: uppercase;
