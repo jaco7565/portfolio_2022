@@ -77,22 +77,6 @@ h1 {
 }
 
 /* Cursor------------ */
-.cursor {
-  z-index: 9999;
-  left: 0;
-  top: 0;
-  width: 10px;
-  height: 10px;
-  background-color: #f44336;
-  position: absolute;
-  border-radius: 5px;
-}
-
-.cursor__follower {
-  transition: transform 0.4s;
-  width: 6px;
-  height: 6px;
-}
 
 /* to top button */
 #myBtn {
