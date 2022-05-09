@@ -95,10 +95,10 @@ function topFunction() {
 
 // sroll animationer ---------------------------
 function srollAnimationer() {
-  gsap.from("#projekter_section", {
-    scrollTrigger: "#projekter_section",
-    duration: 0.9,
-    y: "20rem",
+  gsap.from(".flex_web", {
+    scrollTrigger: ".flex_web",
+    duration: 0.6,
+    y: "10rem",
     // delay: 0.2,
     ease: Cubic.easeOut,
     stagger: { amount: 0.5, from: "random" },
@@ -160,7 +160,7 @@ function srollAnimationer() {
   gsap.from(".side_nav_1", {
     scrollTrigger: ".side_nav_1",
     duration: 0.4,
-    y: "19rem",
+    y: "10rem",
     // delay: 0.2,
     ease: Cubic.easeOut,
     stagger: { amount: 0.5, from: "random" },
@@ -169,7 +169,6 @@ function srollAnimationer() {
   gsap.from(".side_nav_2", {
     scrollTrigger: ".side_nav_2",
     duration: 0.8,
-
     y: "10rem",
     // delay: 0.2,
     ease: Cubic.easeOut,
