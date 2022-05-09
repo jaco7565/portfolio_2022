@@ -76,8 +76,6 @@ h1 {
   font-weight: 400;
 }
 
-/* Cursor------------ */
-
 /* to top button */
 #myBtn {
   display: none;
@@ -421,7 +419,7 @@ video {
 }
 /* Kontakt  */
 #kontakt_section {
-  padding-block: 10rem;
+  padding-block: 15rem;
 }
 .kontakt_tekst {
   text-align: center;
@@ -662,7 +660,7 @@ video {
     position: relative;
     overflow: hidden;
     height: 4rem;
-    margin-top: 7rem;
+    margin-top: 2rem;
     grid-column: 1/4;
     grid-row: 2;
   }
@@ -703,7 +701,7 @@ video {
   }
   .side_nav_1 {
     grid-column: 1;
-    padding-top: 23rem;
+    padding-top: 4rem;
   }
   .side_nav_2 {
     grid-row: 4;
