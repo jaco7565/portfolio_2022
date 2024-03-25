@@ -76,27 +76,6 @@ h1 {
   font-weight: 400;
 }
 
-/* to top button */
-#myBtn {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 99;
-  font-size: 18px;
-  border: none;
-  outline: none;
-  background-color: var(--shaodw);
-  color: var(--font);
-  cursor: pointer;
-  padding: 10px;
-  border-radius: 2px;
-}
-
-#myBtn:hover {
-  box-shadow: var(--font) 8px -8px;
-}
-
 /* PReLoader---------- */
 
 .loader-wrapper {
@@ -177,6 +156,7 @@ h1 {
 }
 
 main {
+  overflow: hidden;
   display: grid;
   grid-template-columns: 5% auto 5%;
   grid-template-rows: repeat(6, 1fr);
